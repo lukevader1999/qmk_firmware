@@ -38,7 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [3] = LAYOUT_65_ansi_blocker(
         _______, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, KC_F13, KC_F14,      // 15
         _______, DE_AT, DE_PLUS, DE_LBRC   , DE_RBRC, DE_QUES, DE_EXLM, DE_LPRN, DE_RPRN, DE_MINS, DE_PERC,  _______, _______, _______, _______,    // 15
-        _______, DE_ASTR, DE_AMPR, DE_LCBR, DE_RCBR , DE_CIRC, DE_UNDS, DE_DLR, DE_BSLS, DE_EQL, _______, _______, _______, _______,                // 14
+        _______, DE_ASTR, DE_AMPR, DE_LCBR, DE_RCBR , DE_CIRC, DE_UNDS, DE_DLR, DE_BSLS, DE_EQL, _______, DE_PIPE, _______, _______,                // 14
         _______, DE_HASH, DE_SLSH, DE_SCLN, DE_GRV, DE_DQUO, DE_QUOT, DE_COLN, DE_LABK, DE_RABK, DE_TILD, _______,          _______, _______,
         _______, _______, _______,                            _______,                            _______, _______, _______, _______, _______
     )

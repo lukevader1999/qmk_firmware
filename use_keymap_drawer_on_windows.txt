@@ -1,0 +1,5 @@
+Just paste this 3 commands into the QMK MSYS Console
+
+qmk c2json --no-cpp keyboards/massdrop/alt/keymaps/lukevader42QWERTY/keymap.c > keymap.json
+keymap -c my_config.yaml parse -q keymap.json > keymap.yaml
+keymap draw keymap.yaml -j keyboards/massdrop/alt/keyboard.json > keymap.svg
